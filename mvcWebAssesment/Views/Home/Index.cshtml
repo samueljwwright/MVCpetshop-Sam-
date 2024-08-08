@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Pet Shop INC!</h1>
+    <div class="Icon-section">
+        <div class="Image-Container">
+            <a class="Icon" asp-controller="Dogs" asp-action="Index">
+                <img src="/Images/Animals/Golden.jpeg" alt="Golden Retriever" />
+                <h3>Dogs</h3>
+            </a>
+            <a class="Icon" asp-controller="Cats" asp-action="Index">
+                <img src="/images/Animals/Cat.jpg" alt="Cat"></img>
+                <h3>Cats</h3>
+            </a>
+
+        </div>
+    </div>
+</div>
